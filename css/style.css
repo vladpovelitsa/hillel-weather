@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a, button {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.center {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  backdrop-filter: blur(5px);
+}
+
+.form {
+  display: flex;
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.form input {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+  background: none;
+}
+.form button {
+  border: none;
+  background: none;
+}
+.form button:hover {
+  color: forestgreen;
+}
+
+.weather {
+  display: none;
+  margin-top: 20px;
+}
+.weather.--open {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
